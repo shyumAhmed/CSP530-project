@@ -23,7 +23,7 @@
       <body>
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container">
-              <a class="navbar-brand" href="#"> <i class="fab fa-node-js"></i> <i class="fab fa-react"></i> Home</a>
+              <a class="navbar-brand" href="../index.html"> <i class="fab fa-node-js"></i> <i class="fab fa-react"></i> Home</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -32,7 +32,7 @@
                   <!-- <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a> -->
                   <a class="nav-item nav-link" href="features.html">Features</a>
                   <a class="nav-item nav-link" href="install.html">Installation</a>
-                  <a class="nav-item nav-link" href="guide.html">Tutorial</a>
+                  <a class="nav-item nav-link active" href="guide.html">Tutorial</a>
                   <a class="nav-item nav-link" href="demo.html">Demo App</a>
                   <a class="nav-item nav-link" href="conclusion.html">Conclusion</a>
                   <a class="nav-item nav-link" href="credits.html">Credits</a>
@@ -40,6 +40,40 @@
               </div>
           </a></div>
         </nav>
+
+        <div class="container">
+          <div id="install_header">
+            <h4>The First Application</h4>
+            <hr id="install_hr">
+             <h6>Explore a few features provided by React & Node JS.</h6> <br> <br> <br>
+        </div>
+
+        <div class="container reactTut">
+         <h5>Animating React Components Added to HTML</h5>
+         <hr id="reactTutHR">
+         <p class="container container_node">
+           Firstly, make a div with a particular id
+          As mentioned in the react installation guide - we will be adding React straight our webpage. We first create a function after including a script for JSX/Babel <code> &ltscript type="text/babel"&gt&lt/script&gt</code> <br> <br>
+          We create a new element(like a variable), within new script tags: 
+          <br>
+          <br>
+          <code>
+              &ltscript&gt
+              const var = (
+                <kbd>HTML.</kbd>
+              )
+              
+              &lt/script&gt
+          </code> <br> <br> 
+
+          Lastly, we need to make sure connect our React component to our HTML, using its DOM. <br> <br>
+          <code>
+              ReactDOM.render(element, document.getElementById(' <kbd>Your div's id</kbd> '));
+          </code>
+          
+
+         </p>
+        </div>
        <!--page content-->
         <script src="" async defer></script>
     </body>
